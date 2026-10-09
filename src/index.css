@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom automotive hot pink brand accent */
+:root {
+  --brand-pink: #E6007A;
+  --brand-pink-hover: #C8006A;
+  --brand-dark: #111217;
+  --brand-dark-soft: #1A1C23;
+}
+
+/* Diagonal stripes pattern accent */
+.hatch-accent {
+  letter-spacing: 0.15em;
+  font-weight: 900;
+  color: #E6007A;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f1015;
+}
+::-webkit-scrollbar-thumb {
+  background: #E6007A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c8006a;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Wrapido Car Care - Dubai Car Wrapping, PPF & Tinting",
+  "description": "Dubai's leading auto care studio for Paint Protection Film (PPF), Ceramic Coating, Window Tinting, Premium Car Wrapping, and Detailing in Al Quoz.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
